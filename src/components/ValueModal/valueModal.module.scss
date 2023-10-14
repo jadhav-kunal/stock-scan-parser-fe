@@ -1,0 +1,37 @@
+.valueContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  background: white;
+  border: 2px solid #e5e7ed;
+  border-radius: 2%;
+  box-shadow: 5px 4px 4px 0px #e6e6e6;
+  padding: 20px 80px;
+}
+
+.mainValueContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.valueItems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 400px;
+  border: 2px solid #f2f2f2;
+  margin-right: 48px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  &:hover {
+    background: #f2f2f2;
+    transition: 0.3s;
+    box-shadow: 2px 1px 1px 0px #f2f2f2;
+  }
+}

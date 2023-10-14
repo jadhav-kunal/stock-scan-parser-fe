@@ -1,0 +1,18 @@
+.textContainer {
+  border: 2px solid #e6e6e6;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 0px 0px 0px 10px;
+  &:hover {
+    background: #f2f2f2;
+    transition: 0.3s;
+    box-shadow: 2px 1px 1px 0px #f2f2f2;
+  }
+}
+
+.textContent {
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+}
