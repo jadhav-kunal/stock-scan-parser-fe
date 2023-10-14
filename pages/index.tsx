@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import styles from './index.module.scss';
-const BACKEND_BASE_URL = 'http://localhost:3001';
+
+const BACKEND_BASE_URL =
+  process.env.NEXT_PUBLIC_BACKEND_BASE_URL || 'http://localhost:3001';
 
 const index = () => {
   const router = useRouter();
