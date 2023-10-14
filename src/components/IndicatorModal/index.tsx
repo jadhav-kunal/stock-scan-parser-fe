@@ -10,7 +10,7 @@ const IndicatorModal = () => {
   return (
     <div className={styles.mainIndicatorContainer}>
       <div className={styles.indicatorContainer}>
-        <h3>{(study_type as string).toLocaleUpperCase()}</h3>
+        <h3>{(study_type as string)?.toLocaleUpperCase()}</h3>
         <div className={styles.indicatorTitle}>Set Parameters:</div>
         <div className={styles.parameterContainer}>
           <h4>{parameter_name}</h4>
